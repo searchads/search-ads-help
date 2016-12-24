@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="量江湖 - 苹果Search Ads搜索广告代理服务">
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Campaign management 管理广告系列 - 苹果搜索广告文档</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Campaign management \u7ba1\u7406\u5e7f\u544a\u7cfb\u5217";
+    var mkdocs_page_input_path = "campaign-management.md";
+    var mkdocs_page_url = "/campaign-management/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-88897391-1', 'asm.liangjianghu.com');
+      ga('send', 'pageview');
+  </script>
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> 苹果搜索广告文档</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="..">Home 首页</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../basics/">Basics 基础</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../advanced-features/">Advanced features 高级特性</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Campaign management 管理广告系列</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#keywords">Keywords 关键词</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#adjusting-bids">Adjusting bids 调整出价</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#managing-budgets">Managing budgets 管理预算</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#ad-groups">Ad Groups 广告组</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#account-view">Account view 账号视图</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#campaign-view">Campaign view 广告系列视图</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#ad-group-view">Ad group view 广告组视图</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#ad-group-keywords-view">Ad group keywords view 广告组关键字视图</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#campaign-management-api-api">Campaign Management API 广告系列管理API</a></li>
+                
+            
+            </ul>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../measure-results/">Measure results 评估结果</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../payments/">Payments 付款</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../account-settings/">Accout settings 账号设置</a>
+        
+    </li>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">苹果搜索广告文档</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Campaign management 管理广告系列</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="keywords">Keywords 关键词</h2>
+<p><strong>如何选择关键字</strong></p>
+<p>搜索广告了解您的应用及其类型，并提供关键字建议列表，以节省您的时间。您还可以添加自己的关键字。如果是这种情况，搜索广告会建议您另外提供一组与您提供的关键字相关的关键字。你可以选择使用或不使用它们。随你便。您也可以使用这些电子表格在广告系列管理工具的关键字标签中批量上传关键字：</p>
+<p><a href="http://searchads.apple.com/help/bulk-keywords-template/keywords_template.csv">Add keywords</a>
+<a href="http://searchads.apple.com/help/negative-keywords-template/negative_keywords_template.csv">Add negative keywords</a></p>
+<p>下载并打开电子表格后，请在每个列中填入以下信息：</p>
+<p><strong>Action：</strong>如果要添加新关键字，请在此处输入“CREATE”，或输入“更新”。如果您要更新现有的关键字。
+<strong>Keyword ID：</strong>如果您要添加新关键字，请将其留空。如果您要更新关键字，请在关键字ID列中添加可在广告组视图中找到的关键字ID。 （如果不显示，请使用“编辑列”将其移动到“要显示的列”一侧。）
+<strong>Keyword：</strong>输入要添加或编辑的关键字。
+<strong>Match Type：</strong>指定BROAD或EXACT匹配。
+<strong>Status：</strong>指示您希望关键字是ACTIVE还是PAUSED。
+<strong>Bid：</strong>输入您的最高每次点击费用（CPT）出价金额。
+<strong>Campaign ID：</strong>可以在广告系列视图右上角的“修改广告系列设置”上找到。
+<strong>Ad Group ID：</strong>可以在“广告组”视图右上角的“修改广告组设置”中找到。</p>
+<p>如果您想选择自己的关键字，以下是几个提示：</p>
+<ol>
+<li>
+<p><strong>想象你自己是客户</strong>
+  考虑某人可能用来查找您的应用类型的搜索字词。什么字解释你的应用程序满足或服务它需要提供什么？
+例如，您的应用是一个新的相机应用，其中包含一些在其他地方无法使用的唯一过滤器。您需要从基本信息开始，例如您的应用程序名称。但是，然后，想想你的应用程序可以做什么。像“颜色编辑器”，“图片编辑器”和“照片编辑器”等字词也可能会推动下载量。</p>
+</li>
+<li>
+<p><strong>尝试一般和特定关键字</strong>
+  一般关键字应该仍然与您的应用程式提供的内容相关。否则，您的广告不太可能进入这些搜索的拍卖。使用一般关键字可以帮助您覆盖更广泛的受众群体，但也可能会使您更快地完成预算，因为它们可以更具竞争力，并且需要更高的出价金额。
+当您选择特定的关键字时，您的广告可能会对与您的应用程式更相关的搜寻查询显示。特定的搜索字词可以帮助您提高广告点击对转化的速度，但如果关键字过于具体，您可能无法达到尽可能多的客户。</p>
+</li>
+</ol>
+<p><strong>如何使用否定关键字</strong></p>
+<p>否定关键字可确保您的广告不会针对特定字词展示。他们可以帮助控制您的成本并提高广告系列的效率。添加否定关键字的默认和推荐设置是完全匹配。</p>
+<p>您可以在制作广告系列和广告组期间添加否定关键字，也可以使用“关键字”标签中的电子表格进行上传。广告系列开始投放后，您可能会发现需要添加到否定关键字列表中，或缩减。随时可以在“广告系列管理”应用程序的“关键字”标签中进行更改。</p>
+<p>排除关键字应与您的出价关键字密切相关，但它们还应指出搜索者正在搜索您应用不提供的内容。</p>
+<p>例如，以下情况下，否定关键字是适当的：</p>
+<ol>
+<li>
+<p>您希望防止对不适用于您的搜索查询展示您的广告。因此，如果您的应用关于女性健身，将“男性健身”添加为否定关键字，则表示您的广告不会针对与“男性健身”相关的任何搜索进行展示。</p>
+</li>
+<li>
+<p>您的广告系列或广告组效果数据显示某个关键字不会为您的应用带来转化。</p>
+</li>
+</ol>
+<p><strong>如何使用否定关键字匹配类型</strong></p>
+<p><strong>完全匹配（否定关键字）</strong>
+作为搜索广告中否定关键字的默认设置，此匹配类型可确保您的广告不会展示确切的字词或词组。它不会阻止您的广告接近变体，如常见的拼写错误和复数形式。我们建议您使用完全匹配，以避免不经意地排除对相关搜索展示的广告。</p>
+<p><strong>例如：</strong>
+假设您有高级谜题应用程式，而且您使用的是「拼图」这个关键字，建议您加入排除关键字「儿童拼图」，​​让广告不会显示该特定字词，而且不会花钱针对您的应用不打算投放的目标受众群体。</p>
+<p><strong>广泛匹配（否定关键字）</strong>
+要确保您的广告不会针对您选择的字词或词组展示，请使用广泛匹配。广泛匹配否定关键字中的所有字词都必须显示，以阻止您的广告。如果使用同义词或近似变体，您的广告仍会显示。</p>
+<p><strong>例如：</strong>
+如果您使用高级谜题应用并使用“儿童益智游戏”作为广泛匹配否定关键字，您的广告就不会显示在“儿童益智游戏”或“益智游戏儿童”上，但仍会显示在搜索查询中，例如“儿童益智应用 。“如果您还想阻止”儿童益智应用“，请添加”儿童拼图“作为广泛匹配否定关键字。</p>
+<p>以下是“photo edit free”这个词基于不同匹配类型得到的结果示例。
+<img alt="match-types_large_2x.png" src="../img/match-types_large_2x.png" /></p>
+<hr />
+<h2 id="adjusting-bids">Adjusting bids 调整出价</h2>
+<p><strong>何时提高出价</strong></p>
+<p>以下是几种情况，您可能想在搜索广告中提高CPT：</p>
+<ol>
+<li>
+<p><strong>当Search Match给您的广告匹配到的相关字词增加了下载量时。</strong>
+  测试提高您的最高每次点击费用出价，看看它是否会为您带来更多展示次数。</p>
+</li>
+<li>
+<p><strong>如果您有一个关键字以低于目标CPA的价格带来下载量时。</strong>
+  提高该关键字的出价，在低于目标CPA的前提下获得更多的展示和转化。</p>
+</li>
+<li>
+<p><strong>您没有看到热门关键字的大量展示。</strong>
+  假设您的APP与该关键字相关，可能是因为其他对该词有兴趣的广告客户出价高过你了。提高您对特定关键字的出价，看看能否获得更多展示和转化。</p>
+</li>
+</ol>
+<p><strong>何时降低出价</strong></p>
+<p>在这种情况下，您可以考虑降低CPT出价：</p>
+<p>如果您的关键字带来了点击次数，但转化次数偏低而CPA高于您的目标。</p>
+<p>降低出价以保持CPA降低。您仍然可以赢得一些展示，但可能会减少该字词的展示次数。</p>
+<p>注意：调整特定关键字的MAX CPT出价将会覆盖广告组中的Default Max CPT Bid。广告组Default Max CPT Bid仍将应用于添加到该广告组的新关键字。</p>
+<hr />
+<h2 id="managing-budgets">Managing budgets 管理预算</h2>
+<p><strong>如何控制预算</strong></p>
+<p>搜索广告中的广告系列预算没有时间限制。设置预算后，您可以继续支出，直到使用或增加预算。 如果您希望预算在特定时间段内持续，您可以添加每日支出上限，以在所需的时间段内分配支出。</p>
+<p>例如：如果您的预算是$ 1200，而您希望持续30天，则可以考虑将每日费用上限设为每日$ 40。</p>
+<p>达到每日预算后，您的广告就会停止显示在当天，但会在第二天重新开始，直到广告系列级预算用尽为止。</p>
+<p>如果您发现每天达到每日支出上限，而投资回报率已达到目标，请考虑提高每日上限，看看是否获得额外的展示次数和转换次数。</p>
+<p>注意：有时您可能会收到略高于每日上限的费用。不过，我们绝不会向您收取超过整体广告系列预算的费用。</p>
+<hr />
+<h2 id="ad-groups">Ad Groups 广告组</h2>
+<p><strong>管理广告组</strong></p>
+<p>广告组是与您在App Store搜索结果中宣传的应用相关的一组关键字。您可以为每个广告组设置特定条件和出价金额。广告组是定义哪些人看到您的广告的有效方式。</p>
+<p>例如，您可以将广告组定位到与您的应用相关的常见主题。您可以将该广告组设置为高于具有与较不常见主题相关的关键字的广告组。以这种方式区分广告组还可以单独跟踪和管理您的支出。</p>
+<p>这里是什么样子：</p>
+<p>假设你有一个相机应用程序，有一些独特的过滤器，其他地方都不可用。您注意到80％的用户正在从iPhone搜索它。您可以考虑制作专门针对iPhone的广告组，以便进一步优化出价，从iPhone用户获得更多展示次数。</p>
+<p>或者，如果您知道特定性别或年龄的用户对您更有价值，例如males18-34，您可以创建独立的广告组，以便针对这些受众群体密切管理您的展示机会和出价。</p>
+<p><strong>更改广告系列</strong></p>
+<p><strong>何时暂停关键字</strong></p>
+<p>您可以随时暂停广告系列中的关键字。 以下是您可能考虑的时间：</p>
+<ol>
+<li>关键字的转换率偏低。
+  特别是如果它的每次转化费用高于您的每次转化费用目标。</li>
+<li>如果广泛匹配关键字的每次转化费用高于您的预期。
+  您可以在广泛匹配中暂停，而是将其作为完全匹配关键字添加。 这样，您就可以维持该特定字词的展示次数，而不是同义词和相对变体。</li>
+<li>如果您要应用不同的广泛匹配关键字，或想切换为完全匹配关键字。
+  在广告系列中设置匹配类型后，您就无法进行更改。 但是，你可以暂停它，并开始另一个。</li>
+</ol>
+<p><strong>何时添加关键字</strong></p>
+<p>当特定关键字效果良好时，请使用关键字建议工具获取更多关键字的建议，然后将其添加到您的广告组中。</p>
+<p><strong>调整每次转化费用的目标</strong></p>
+<p>每次转化费用目标是可选的，但有一个很好的理由选择：我们使用您的每次转化费用目标作为指导，以最大限度地提高您的应用下载量。 （注意：不能保证。）</p>
+<p>您可以随时添加或调整每次转化费用目标。 例如，如果您的展示次数偏低，则可以考虑提高每次转化费用目标。 如果价格太低，则可能会阻止您的广告进入竞价。</p>
+<hr />
+<h2 id="account-view">Account view 账号视图</h2>
+<p>要访问您的账号视图，请登录到搜索广告，然后点击每个页面右上角的您的姓名。</p>
+<p>在您的账号视图中，您可以：</p>
+<ul>
+<li>创建一个新账号</li>
+<li>查看您现有账号的列表</li>
+<li>修改账号设置，包括您的账号信息，其他用户和付款信息（如果您是账号管理员）。</li>
+</ul>
+<hr />
+<h2 id="campaign-view">Campaign view 广告系列视图</h2>
+<p>在广告系列视图中，您可以查看广告系列列表，修改广告系列预算，暂停或启用广告系列以及制作新的广告系列。</p>
+<p><strong>如何访问“广告系列”视图</strong></p>
+<p>广告系列视图是您在登录时看到的第一个网页。或者，您可以通过点击页面右上角的帐户视图下拉菜单中的帐户名称来访问您的广告系列列表。</p>
+<p><strong>自定义您的广告系列列表视图</strong></p>
+<p>您的广告系列，其状态，ID，应用名称和一系列指标均可在广告系列视图中使用。您可以点击表格右上角的蓝色“修改列”链接，自定义效果指标视图。通过拖放功能，您可以在“要显示的列”部分和“隐藏列”部分之间来回移动项目。</p>
+<p><strong>您可以在“广告系列”视图中执行的操作</strong></p>
+<p>在广告系列视图中，您可以修改广告系列的预算和每日上限。但是，广告系列开始后，预算不能降低。</p>
+<p>预算没有时间限制，因此请考虑增加每日上限，以控制预算随着时间的流逝。</p>
+<p>您可以直接在表格栏中修改预算和每日上限：</p>
+<ol>
+<li>在广告系列列表表格中，点击要修改的广告系列的预算或每日上限。</li>
+<li>突出显示金额。</li>
+<li>输入新的预算或每日上限金额并按回车键。</li>
+</ol>
+<p>注意：您也可以在点击广告系列后修改预算和每日上限。转到页面右侧的“修改广告系列设置”。</p>
+<p><strong>暂停或启用广告系列</strong></p>
+<p>广告系列创建后无法删除。不过，您可以根据需要暂停和激活广告系列：</p>
+<ol>
+<li>从广告系列视图页开始。</li>
+<li>选择要激活或暂停的广告系列。</li>
+<li>找到操作下拉菜单（创建广告系列按钮旁边），然后选择激活或暂停。</li>
+</ol>
+<p><strong>更改效果视图的日期范围</strong></p>
+<p>页面右侧的下拉菜单提供了包括今天，昨天，最近7天，最近30天，上周，最近4周或最近12周的日期范围。</p>
+<p><strong>创建新的广告系列</strong></p>
+<p>点击创建广告系列按钮开始新的广告系列。系统会显示新页面，您可以选择要宣传的应用程式。</p>
+<p>注意：如果您的应用程式名称包含特殊字元，可能就不会显示为选项。要键入字符的替代版本，请按住键直到显示其替代字符。然后单击要使用的那个，或键入下面显示的数字。</p>
+<hr />
+<h2 id="ad-group-view">Ad group view 广告组视图</h2>
+<p>在广告组视图中，您可以管理广告系列设置，查看广告组列表，调整预算并查看报告。</p>
+<p><strong>如何到达广告组页面</strong>
+要在任何广告系列中查看广告组列表，只需点击广告系列视图中的广告系列名称即可。</p>
+<p><strong>自定义您的广告组列表视图</strong>
+您可以在此数据视图中查看广告组及其状态，ID和效果指标。顶部的标签提供了其他指标。如果您希望自定义效果指标视图，请使用“修改列”链接。</p>
+<p><strong>修改广告系列预算和每日上限</strong>
+转到广告组页面右上角的“修改广告系列设置”。新页面打开，您可以调整预算和每日上限。但是，在广告系列开始投放后，您无法降低预算。您在此处所做的任何更改都将应用于广告系列中的所有广告组。</p>
+<p>注意：您也可以在广告系列视图中修改广告系列的预算和每日上限。</p>
+<p><strong>更改广告组的默认每次点击费用出价</strong>
+在广告组视图中，您可以更改每个广告组的默认每次转化费用出价。只需点击列中的数字即可将其突出显示，并输入新的金额。</p>
+<p><strong>暂停或启用广告群组</strong></p>
+<ol>
+<li>从广告组页面开始。</li>
+<li>选择您要激活或暂停的所有广告组。</li>
+<li>找到操作下拉菜单（创建广告组按钮旁边）。</li>
+<li>单击激活或暂停。</li>
+</ol>
+<p><strong>创建新的广告组</strong>
+要创建新的广告组，只需点击创建广告组按钮即可。系统会显示一个新页面，您可以在其中自定义广告组。输入以下信息：</p>
+<ul>
+<li>Ad group name 广告组名称</li>
+<li>Devices 设备</li>
+<li>Default CPT Bid 默认CPT出价</li>
+<li>Ad scheduling preferences 广告投放时间设置（可选）</li>
+<li>CPA goal CPA目标（可选）</li>
+<li>Search Match 搜索匹配 Y/N</li>
+<li>Keywords 关键字（可选）</li>
+<li>Negative Keywords 否定关键字（可选）</li>
+<li>Audience selection details 受众群体选择详情（可选）</li>
+</ul>
+<p>进行选择，然后单击保存。</p>
+<p><strong>查看所有关键字</strong>
+您可以点击“所有关键字”，查看所有广告组中的所有竞价关键字及其效果指标。</p>
+<p>注意：此数据视图不包括通过搜索匹配与您的广告匹配的搜索字词。要全面了解搜索字词的效果（包括搜索匹配），请选择搜索字词标签。</p>
+<p><strong>搜索字词标签</strong>
+通过“搜索字词”标签，您可以深入了解所有竞价关键字和搜索匹配效果指标。这些指标是整个广告系列中所有广告组的汇总数据。在这里您可以执行以下操作：
+<em> 查看关键指标和效果，例如导致展示，点击和转化的搜索字词。
+</em> 发现搜索匹配已自动与您的广告匹配的搜索查询，并查看其效果。
+<em> 确定成功的搜索匹配和广泛匹配搜索字词以添加为出价关键字。
+</em> 了解哪些搜索匹配或广泛匹配字词无效，并考虑将其添加到否定关键字列表中</p>
+<p>了解哪些搜索字词在高效的每次操作费用下吸引下载次数，哪些搜索字词的效果不佳，您可以相应地优化广告系列。</p>
+<p>例如，如果您发现搜索匹配字词效果良好，并且希望获得更多展示次数，可以考虑将该字词添加为完全匹配或广泛匹配关键字。 这样，您可以提高出价以获得额外的展示次数，而不会影响整个广告组的默认每次转化费用（CPT）出价。 或者，如果您看到的广泛匹配字词无法为您带来转化，请考虑将其添加为完全匹配字词否定条件，以便您的广告不会针对该查询展示。</p>
+<p><strong>修改否定关键字</strong>
+在排除关键字标签中，您可以向广告系列或特定广告组添加更多否定关键字，并删除否定关键字。</p>
+<hr />
+<h2 id="ad-group-keywords-view">Ad group keywords view 广告组关键字视图</h2>
+<p>要进入广告组关键字视图，只需点击列表中广告组的名称即可。在这里，您可以管理关键字，查看报表和修改广告组设置。</p>
+<p><strong>查看关键字</strong>
+在“广告组关键字”标签上，您可以查看所有关键字的列表及其在所选广告组中的效果。</p>
+<p>注意：此数据视图不包括搜索匹配字词。要全面查看所有搜索查询效果，请选择搜索字词标签。</p>
+<p><strong>更改效果视图的日期范围</strong>
+页面右侧的下拉菜单提供了包括今天，昨天，最近7天，最近30天，上周，最近4周或最近12周的日期范围。</p>
+<p><strong>向广告组添加关键字</strong>
+点击要修改的广告组，然后点击添加关键字。将打开一个对话框，您可以：</p>
+<ul>
+<li>点击字词旁边的“+”，添加推荐的关键字。</li>
+<li>点击列表底部的“添加到关键字”，添加所有推荐的关键字。</li>
+<li>通过在搜索字段中输入搜索字词并按回车键查看相关字词，搜索更多关键字。</li>
+<li>点击“+”或“添加到关键字”。</li>
+<li>在我的关键字列表框中添加您自己的关键字。请务必以逗号分隔，然后按返回。</li>
+</ul>
+<p>注意：如果您的关键字包含特殊字符，它可能不会显示为选项。要键入字符的替代版本，请按住键直到显示其替代字符。然后单击要使用的那个，或键入下面显示的数字。</p>
+<p>在“我的关键字列表”框中添加更多关键字后，您可以使用右侧的“编辑”按钮进行修改。 “编辑”按钮可让您：</p>
+<ul>
+<li>选择要更改的关键字。</li>
+<li>将匹配类型从广泛匹配更改为完全匹配，反之亦然。注意：保存关键字后，将无法更改其匹配类型。</li>
+<li>更新所选关键字的关键字出价。</li>
+</ul>
+<p><strong>修改关键字的每次点击费用（CPT）出价</strong>
+查找“CPT出价”列。突出显示您要调整的出价，输入新金额，然后按Enter键。</p>
+<p><strong>修改广告组中的关键字</strong>
+您可以使用批量下载和上传功能，在广告组投放期间修改广告组的关键字。为此，只需完成以下步骤：</p>
+<ol>
+<li>点击操作，然后从弹出菜单中选择下载关键字。</li>
+<li>打开下载到您计算机的广告组关键字的.csv文件。</li>
+<li>对.csv文件进行更改。</li>
+<li>在.csv文件开头插入列，并将列标题标记为“操作”。对于.csv文件中的每一行，指示您的编辑是“UPDATE”更新现有关键字还是“CREATE”以添加新关键字。</li>
+<li>再次点击操作，然后从弹出菜单中选择上传关键字。</li>
+<li>浏览修订的.csv文件，然后使用选择选择它。</li>
+<li>点击上传。</li>
+</ol>
+<p><strong>搜索字词标签</strong>
+通过广告组视图中的搜索字词标签，您可以深入了解所选广告组的所有竞价关键字和搜索匹配效果指标。在这里您可以执行以下操作：</p>
+<ul>
+<li>查看关键指标和效果，例如导致展示，点击和转化的搜索字词。</li>
+<li>发现搜索匹配已自动与您的广告匹配的搜索查询，并查看其效果。</li>
+<li>确定成功的搜索匹配和广泛匹配搜索字词以添加为出价关键字。</li>
+<li>了解哪些搜索匹配或广泛匹配字词无效，并且应添加到否定关键字列表中</li>
+<li>了解哪些搜索字词促成了有效的每次转化费用的下载，哪些搜索字词无效，您可以相应地优化广告组。</li>
+</ul>
+<p>例如，如果您发现搜索匹配字词带来了良好的效果，并且您希望获得更多展示，请考虑将该字词添加为完全匹配或广泛匹配关键字。这样，您可以提高出价以获得更多展示次数，而不会影响整个广告组的默认最高每次点击费用出价。或者，如果您看到没有产生展示的广泛匹配字词，请考虑将其添加为完全匹配字词否定否，以便您的广告不会针对该查询展示。</p>
+<p><strong>修改否定关键字</strong>
+在排除关键字标签中，您可以为所选广告组添加更多否定关键字，并删除否定关键字。</p>
+<hr />
+<h2 id="campaign-management-api-api">Campaign Management API 广告系列管理API</h2>
+<p><strong>谁可以使用API</strong></p>
+<p>搜索广告Campaign Management API适用于希望以编程方式管理广告系列并提取报表的开发者，代理机构和第三方平台。</p>
+<p>借助API，您可以构建软件来管理广告系列，广告组和关键字。它允许广告客户或第三方更有效地管理其较大的搜索广告帐户和广告系列，或提供除搜索广告通过自己的产品提供的附加功能。一些用例包括：</p>
+<ul>
+<li>自定义报告</li>
+<li>数据摄取到内部商业智能系统</li>
+<li>跨渠道广告系列管理</li>
+<li>自动出价管理</li>
+</ul>
+<p><a href="https://developer.apple.com/library/content/documentation/General/Conceptual/AppStoreSearchAdsAPIReference/">查看完整的API文档</a></p>
+<p><strong>入门</strong></p>
+<p>要有效地实施搜索广告API，您需要了解技术要求并提前计划，以确保您拥有开发和维护应用所需的资源。</p>
+<p>API：</p>
+<ul>
+<li>提供 <a href="http://www.xfront.com/REST-Web-Services.html">REST</a> 访问广告系列管理。</li>
+<li>以 <a href="http://www.json.org/">JSON</a> 格式返回数据。</li>
+<li>受所有流行的编程语言支持。</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../measure-results/" class="btn btn-neutral float-right" title="Measure results 评估结果">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../advanced-features/" class="btn btn-neutral" title="Advanced features 高级特性"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../advanced-features/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../measure-results/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script src="../js/theme.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="量江湖 - 苹果Search Ads搜索广告代理服务">
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Measure results 评估结果 - 苹果搜索广告文档</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Measure results \u8bc4\u4f30\u7ed3\u679c";
+    var mkdocs_page_input_path = "measure-results.md";
+    var mkdocs_page_url = "/measure-results/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-88897391-1', 'asm.liangjianghu.com');
+      ga('send', 'pageview');
+  </script>
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> 苹果搜索广告文档</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="..">Home 首页</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../basics/">Basics 基础</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../advanced-features/">Advanced features 高级特性</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../campaign-management/">Campaign management 管理广告系列</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Measure results 评估结果</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#understanding-reports">Understanding reports 理解报告</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#report-definitions">Report definitions 报告定义</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#attribution-api-api">Attribution API 归因API</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#privacy">Privacy 隐私</a></li>
+                
+            
+            </ul>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../payments/">Payments 付款</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../account-settings/">Accout settings 账号设置</a>
+        
+    </li>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">苹果搜索广告文档</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Measure results 评估结果</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="understanding-reports">Understanding reports 理解报告</h2>
+<p>访问“搜索广告报告”部分，深入了解广告系列的效果。 您可以按日期，广告组或关键字查看，并绘制各种指标：</p>
+<ul>
+<li>Spend 花费</li>
+<li>Taps 点击量</li>
+<li>App downlaods 应用下载量</li>
+<li>TTR（tap-through rate）点击转化率</li>
+<li>Average CPA 平均每次下载成本</li>
+<li>Average CPT 平均每次点击成本</li>
+<li>Impressions 曝光量</li>
+</ul>
+<p>您也可以按设备过滤数据。</p>
+<p>注意：报表不包含应用内购买的数据。此外，搜索广告不支持使用第三方跟踪网址变量。但是，如果您想要跟踪客户的生命周期价值，请考虑实施搜索广告归因API。</p>
+<p>您在页面上看到的图表将根据您选择的参数自动更改。 使用其上方的下拉菜单选择指标选项，然后从左侧导航中选择报告类型。</p>
+<p><img alt="Reports_CampaignAge_large_2x.jpg" src="../img/Reports_CampaignAge_large_2x.jpg" /></p>
+<p><strong>如何查找报告</strong></p>
+<p>要访问“报告”页面，请登录您的帐户。 您将看到“广告系列”屏幕。 下一个：</p>
+<ul>
+<li>选择您要查看的广告系列。</li>
+<li>在广告系列概览屏幕中，点击报告标签。</li>
+<li>选择您要查看和过滤详细报告的方式。</li>
+</ul>
+<p><strong>如何阅读报告</strong></p>
+<p><strong>1）图表视图</strong>
+“报告”页面顶部的图表视图为您提供了按日期列出的效果指标的快照。 您可以过滤视图并比较指标，以便深入了解广告系列数据。 注意：日期视图是唯一允许您选择多个指标的视图。</p>
+<p>过滤器选项将显示在图表的左上角，一旦应用，将持续显示，直到您删除或更改。 当你调整过滤器，你会立即看到一个新的视觉效果。</p>
+<p><img alt="chart-view_large_2x.png" src="../img/chart-view_large_2x.png" /></p>
+<p><strong>2）表视图</strong>
+根据您选择的过滤器和指标，表格会合并所选视图中每个组的总计。 可用的过滤器取决于您的视图。</p>
+<p><img alt="table-view_large_2x.png" src="../img/table-view_large_2x.png" /></p>
+<p><strong>性别，年龄和位置报告视图中的“User Withheld”</strong></p>
+<p>如果您未在广告组或广告系列中应用受众群体详情，则可能会在报告数据视图中的年龄，性别或地理位置部分下面显示一个标题为“User Withheld”类别。 这反映了一些看到您的广告的用户已在其设备上启用“限制广告跟踪”或停用位置服务。</p>
+<p><strong>年龄范围报告</strong></p>
+<p>按年龄查看报告时，指标会分组为以下预设年龄组：18-24岁，25-34岁，35-44岁，35-54岁，55-64岁，65岁以上。</p>
+<p><strong>报表视图中的“Low Volume”指示器</strong></p>
+<p>某些报告可能会返回“Low Volume”的值。这意味着您请求的数据低于Apple的隐私权阈值。例如，搜索字词必须至少达到10次展示，否则“搜索字词”报告中会显示“Low Volume”值。年龄，性别或位置报告需要至少100次展示，然后搜索广告才能显示任何值。</p>
+<hr />
+<h2 id="report-definitions">Report definitions 报告定义</h2>
+<p>不确定你在看什么，或寻找？这里有一个指南，您可以在排序搜索广告效果数据时看到这些字词和缩略词。</p>
+<p><strong>Impressions 曝光量</strong>
+您的赞助广告在报表时间段内在App Store搜索结果中显示的次数。</p>
+<p><strong>Taps 点击数</strong>
+在报告时间段内用户点击您的广告的次数。</p>
+<p><strong>Conversions 下载数</strong>
+报告期内由赞助广告产生的下载或重新下载总次数。搜索广告的转化次数归因于30天的点击后到达期。</p>
+<p><strong>TTR 点击转化率</strong>
+点击率（TTR）是客户点击您的广告的次数除以您的广告获得的总展示次数。</p>
+<p><strong>CR 下载转化率</strong>
+转化率（CR）是一个时段内接收到的转化总数除以同一时段内的总点击数。</p>
+<p><strong>Avg CPA 平均每次转化费用</strong>
+平均每次转化费用（CPA）是总支出除以一段时间内获得的转化次数。</p>
+<p><strong>Spend 花费</strong>
+每个客户点击广告的费用总和。</p>
+<hr />
+<h2 id="attribution-api-api">Attribution API 归因API</h2>
+<p><strong>关于搜索广告API</strong></p>
+<p>通过搜索广告归属API，您可以跟踪和归因于来自搜索广告系列的应用下载。 很容易准确地测量新获得的用户的生命周期价值和您的广告活动的有效性。</p>
+<p><strong>API优点</strong></p>
+<p>只要在应用程式中加入几行程式码，即可轻松了解不同客群的价值，以及促成转换的关键字。 您可以使用此信息为不同的关键字，广告组和受众群体优化您的CPT和CPA目标。</p>
+<p><strong>API要求</strong></p>
+<p>该应用必须启用搜索广告归因代码才能跟踪归因。</p>
+<p>您随时可以启用应用程式的归属功能，以追踪由搜寻广告活动带来的应用程式下载次数。</p>
+<p>归因仅适用于运行iOS 10或更高版本的用户，他们点击了搜索广告系列，并在30天内下载了该应用。</p>
+<p><strong>如何实现API</strong></p>
+<p>要启用您的应用归因功能，请按照下列步骤操作：</p>
+<ol>
+<li>将iAd框架添加到应用程序的Xcode项目文件中。</li>
+<li>在包含您的归因代码的文件中导入iAd标头：
+  #import <iAd/iAd.h></li>
+<li>检查搜索广告归因，并使用广告系列报告中的结果。</li>
+</ol>
+<pre><code class="objective-c">// Check for iOS 10 attribution implementation
+if ([[ADClient sharedClient] respondsToSelector:@selector(requestAttributionDetailsWithBlock:)]) { 
+NSLog(@&quot;iOS 10 call exists&quot;); 
+[[ADClient sharedClient] requestAttributionDetailsWithBlock:^(NSDictionary *attributionDetails, NSError *error) { 
+// Look inside of the returned dictionary for all attribution details
+NSLog(@&quot;Attribution Dictionary: %@&quot;, attributionDetails); 
+}];
+}
+</code></pre>
+
+<p>以下是来自归因API的响应对象（版本3.1），其中包含广告系列层次结构详细信息，隐藏关键字，下载日期和点击日期。</p>
+<pre><code class="json">{
+&quot;Version3.1&quot; = { 
+&quot;iad-attribution&quot; = true;
+&quot;iad-org-name&quot; = &quot;Light Right&quot;; 
+&quot;iad-campaign-id&quot; = 15292426; 
+&quot;iad-campaign-name&quot; = &quot;Light Bright Launch&quot;; 
+&quot;iad-conversion-date&quot; = &quot;2016-10-14T17:18:07Z&quot;;
+&quot;iad-click-date&quot; = &quot;2016-10-14T17:17:00Z&quot;;
+&quot;iad-adgroup-id&quot; = 15307675; 
+&quot;iad-adgroup-name&quot; = &quot;LightRight Launch Group&quot;; 
+&quot;iad-keyword&quot; = &quot;light right&quot;; 
+}; 
+}
+</code></pre>
+
+<p><a href="http://searchads.apple.com/help/pdf/attribution-api.pdf">查看完整API文档</a></p>
+<hr />
+<h2 id="privacy">Privacy 隐私</h2>
+<p><strong>搜索广告和隐私权</strong></p>
+<p>Apple收集的所有搜索广告数据都必须遵守Apple隐私政策，Apple不会将数据出售给第三方。 搜索广告不会使用来自其他Apple服务（例如Google地图，Siri，iMessage和iCloud）的用户个人数据，也不会通过服务和功能（例如健康，HomeKit，电子邮件，联系人和通话记录）从用户设备获取用户的个人数据。</p>
+<p>用户还可以通过使用限制广告跟踪功能选择停止接收定位广告。 默认情况下，对儿童的Apple ID帐户启用限制广告跟踪。
+搜索广告的下载归因是以尊重隐私的方式完成的。 </p>
+<p>新获得的客户打开您的应用后，您的应用会查询客户的设备，以确定下载是否可归因于搜索广告：</p>
+<ul>
+<li>查询完全在设备上进行;</li>
+<li>您只能对应用程序的当前客户执行查询; 和</li>
+<li>用户可以启用限制广告跟踪功能来阻止查询。</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../payments/" class="btn btn-neutral float-right" title="Payments 付款">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../campaign-management/" class="btn btn-neutral" title="Campaign management 管理广告系列"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../campaign-management/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../payments/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script src="../js/theme.js"></script>
+
+</body>
+</html>
