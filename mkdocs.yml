@@ -1,0 +1,14 @@
+site_name: 苹果搜索广告文档
+site_description: 苹果搜索广告 Search Ads 文档，提供帮助、建议和有用的提示。
+site_author: 量江湖 - 苹果Search Ads搜索广告代理服务
+site_dir: search-ads-help
+pages:
+  - Home 首页: index.md
+  - Basics 基础: basics.md
+  - Advanced features 高级特性: advanced-features.md
+  - Campaign management 管理广告系列: campaign-management.md
+  - Measure results 评估结果: measure-results.md
+  - Payments 付款: payments.md
+  - Accout settings 账号设置: account-settings.md
+theme: readthedocs
+google_analytics: ['UA-88897391-1', 'asm.liangjianghu.com']
