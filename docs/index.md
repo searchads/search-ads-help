@@ -42,10 +42,3 @@
 	* [Managing preferences 管理首选项](account-settings/#managing-preferences)
 	* [Invite users 邀请用户](account-settings/#invite-users)
 	* [Structuring accounts 账号结构](account-settings/#structuring-accounts)
-
-
-_由<a href="http://asm.liangjianghu.com" title="苹果Search Ads搜索广告代理服务">量江湖</a>友情赞助，对帮助文档有疑问，请联系我们 <a href="mailto:searchads@lbadvisor.net">searchads@lbadvisor.net</a>_
-
-
-
-
