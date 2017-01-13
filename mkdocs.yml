@@ -2,14 +2,14 @@ site_name: 苹果搜索广告文档
 site_description: 苹果搜索广告 Search Ads 文档，提供帮助、建议和有用的提示。
 site_author: 量江湖 - 苹果Search Ads搜索广告代理服务
 theme: readthedocs
+repo_url: https://github.com/searchads/search-ads-help/
 pages:
   - Home 首页: index.md
-  - How it works 如何运行: how-it-works.md
   - Basics 基础: basics.md
   - Advanced features 高级特性: advanced-features.md
   - Campaign management 管理广告系列: campaign-management.md
   - Measure results 评估结果: measure-results.md
   - Payments 付款: payments.md
-  - Accout settings 账号设置: account-settings.md
+  - Accout settings 帐户设置: account-settings.md
 google_analytics: ['UA-88897391-2', 'auto']
 copyright: 由<a href="http://asm.liangjianghu.com/?hmsr=github&utm_campaign=rd&utm_source=github" target="_blank" title="苹果Search Ads搜索广告代理服务">量江湖</a>友情赞助，技术交流QQ群：596336097，或邮件：<a href="mailto:searchads@lbadvisor.net">searchads@lbadvisor.net</a> 。

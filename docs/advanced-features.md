@@ -34,6 +34,7 @@
 如果您要批量上传关键词列表，可以在广告系列管理工具的关键词标签中执行此操作。您还可以在广告系列管理工具的关键词标签中用电子表格批量上传关键词：
 
 [Add keywords](http://searchads.apple.com/help/bulk-keywords-template/keywords_template.csv)
+
 [Add negative keywords](http://searchads.apple.com/help/negative-keywords-template/negative_keywords_template.csv)
 
 **使用匹配类型**

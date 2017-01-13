@@ -86,7 +86,9 @@ Search Match（搜索匹配）是一项默认功能，可让您轻松地在几�
 *	注册搜索广告帐户。
 *	添加有效的信用卡。
 
-更多细节，[请看广告系列设置教程](http://searchads.apple.com/video/campaign-setup-tutorial/)。
+更多细节，请看广告系列设置教程。
+
+<embed src='http://player.youku.com/player.php/sid/XMjEwMDE0MjgyNA==/v.swf' allowFullScreen='true' quality='high' width='480' height='400' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
 
 **Tip:**
 
@@ -180,9 +182,9 @@ Search Match（搜索匹配）是一项默认功能，可让您轻松地在几�
 
 **设置时区**
 
-注册搜索广告账户的时候您可以选择时区。选择的时区影响到你所有广告组和报表的开始和结束时间。
+注册搜索广告帐户的时候您可以选择时区。选择的时区影响到你所有广告组和报表的开始和结束时间。
 
-重要提示：一旦账户设置时区后就无法更改。另外，账单日期是基于UTC时间，和选择的时区无关。
+重要提示：一旦帐户设置时区后就无法更改。另外，账单日期是基于UTC时间，和选择的时区无关。
 
 ---
 
