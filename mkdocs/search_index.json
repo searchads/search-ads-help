@@ -204,6 +204,21 @@
             "location": "/account-settings/#structuring-accounts", 
             "text": "如何组织您的搜索广告帐户  用于管理广告系列的帐户结构取决于您对用户访问权限和许可的需求。  因此，如果您管理少数广告系列，并且不需要为其分配不同级别的访问权限或用户许可，则可以在搜索广告帐户下轻松创建和管理广告系列。  例如：   如果您是为多个客户管理搜索广告的代理商，或者您需要限制用户对部分广告系列的访问权限，请在您的帐户下创建广告系列组，并管理不同广告系列组中的每组广告系列。  例如：   Tip：  帐户应由该帐户中所有搜索广告系列（和广告系列组）付费的法律实体设置。请注意：如果您有资格通过按月收据结算付款，您的信用额度将与您的帐户相关联。  添加广告系列组 campaign groups  您可以在“帐户设置”页面的“帐户管理”部分中创建和管理广告系列组。在创建广告系列组时，您可以输入客户的信息或使用您帐户中的信息。   转到搜索广告帐户页面的帐户管理部分。  在您的帐户列表正上方找到“创建广告系列组”按钮。  单击按钮转到创建广告系列组页面，然后输入所需的信息。（您也可以使用您的帐户信息填充这些字段。）   何时不应创建广告系列组 campaign group  如果您是代理商，请在以下情况下不要创建广告系列组：   您的客户想要拥有自己的帐户或直接进行结算。  您的客户需要将他们的搜索广告帐户关联到其iTunes Connect帐户，以便进行受众群体定向。   在上述情况下，您的客户应创建自己的搜索广告帐户，并邀请您作为其搜索广告帐户（或广告系列组）的用户。", 
             "title": "Structuring accounts 帐户结构"
+        }, 
+        {
+            "location": "/create-cg-cert/", 
+            "text": "创建广告系列组\n\n\n\n\n\n\n登录\n苹果搜索广告控制台\n\n\n点击页面右上角，然后点“Settings”\n\n\n\n\n\n\n\n\n选择“Account Management”，点击“Create Campaign Group”\n\n\n\n\n\n\n\n\n填写Campaign Group信息\n\n\n\n\n\n\n创建完成：\n\n\n\n\n\n\n\n\n创建API证书\n\n\n\n\n\n\n点击“API”，然后点“Create API Certificate”\n\n\n\n\n\n\n\n\n填写Certificate名称，选择Campaign Group以及角色\n\n\n** 广告投放的角色必需选择Campaign Group或Admin\n\n\n\n\n\n\n\n\n勾选创建好的证书，点击“Action”-“Download certificate”\n\n\n\n\n\n\n\n\n到下载目录中，查看下载的zip文件", 
+            "title": "API Certificate 创建证书"
+        }, 
+        {
+            "location": "/create-cg-cert/#_1", 
+            "text": "登录 苹果搜索广告控制台  点击页面右上角，然后点“Settings”     选择“Account Management”，点击“Create Campaign Group”     填写Campaign Group信息    创建完成：", 
+            "title": "创建广告系列组"
+        }, 
+        {
+            "location": "/create-cg-cert/#api", 
+            "text": "点击“API”，然后点“Create API Certificate”     填写Certificate名称，选择Campaign Group以及角色  ** 广告投放的角色必需选择Campaign Group或Admin     勾选创建好的证书，点击“Action”-“Download certificate”     到下载目录中，查看下载的zip文件", 
+            "title": "创建API证书"
         }
     ]
 }
